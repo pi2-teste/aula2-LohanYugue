@@ -29,7 +29,11 @@ public class JFrameCustomizadoView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(300, 400));
-        setSize(new java.awt.Dimension(0, 0));
+	
+	//Alterei essa linha aki primeiro:
+        setSize(new java.awt.Dimension(300, 400));
+	//Código para centralizar a janela:
+	setLocationRelativeTo(null);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
